@@ -1,0 +1,90 @@
+
+
+*{
+    box-sizing: border-box;
+    }
+    @font-face{
+        font-family: roboto;
+        src:url("./fonts/Roboto-Regular.ttf");
+    }
+    
+    @font-face{
+        font-family: Boogaloo;
+        src:url("./fonts/Boogaloo-Regular.ttf");
+    }
+    @font-face{
+        font-family: Khand;
+        src:url("./fonts/Khand-Regular.ttf");
+    }
+    @font-face{
+        font-family: Pacifico;
+        src:url("./fonts/Pacifico-Regular.ttf");
+    }
+    
+    @font-face{
+        font-family: Tajawal;
+        src:url("./fonts/Tajawal-Regular.ttf");
+    }
+.myNavBar{
+    width: 100%;
+    height: 70px;
+    padding:15px;
+    background-color: #000;
+}
+
+ .myul-list ul{
+    list-style-type: none;
+}
+
+.myul-list ul li{
+   margin: 5px;
+   padding :5px;
+   text-decoration: none !important;
+}
+
+.myul-list ul li a{
+    text-decoration: none;
+    color:white;
+}
+#logo{
+    color:white !important;
+} 
+
+
+*{
+    font-family: Khand !important;
+}
+
+.container{
+    height: 100%;
+}
+
+.jumbotron{
+    background-image:asset-url('writer.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    width: 100% !important;
+    height: 100% !important;
+}
+.mytitle{
+    color: white  !important;
+    text-align: center;
+    margin-bottom: -60px;
+}
+
+.mytext{
+    color: white  !important;
+    font-size: 30px !important;
+    padding:  80px !important;
+    margin-bottom: -80px;
+}
+
+.signUp-button{
+    width: 200px !important;
+    margin: auto !important;
+}
+
+.mybutton{
+    font-size: 30px !important;
+}
