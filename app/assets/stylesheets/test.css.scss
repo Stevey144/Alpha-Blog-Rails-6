@@ -159,6 +159,54 @@
     width: 400px !important;
     margin: auto !important;
 }
+.tableTitle, tr td{
+    border-collapse: collapse !important;
+    border: none !important;
+}
+.myNewArticle{
+    text-decoration: none !important;
+    margin-left: 120px;
+    background-color: green;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.myNewArticle:hover{
+    color:white;
+    background-color: brown;
+}
+
+.newArticleContainer{
+    width: 300px !important;
+    margin: auto !important;
+
+}
+.createArticleButton{
+    background-color: green !important;
+
+}
+
+.backtoArticleButton{
+
+    background-color: grey !important;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 4px !important;
+    border-radius: 8px !important;
+}
+.backtoArticleButton:hover{
+    background-color: brown !important;
+    color: white !important;
+}
+
+input[type=text]{
+    width: 300px !important;
+}
+
+textarea#message_area {
+    width: 300px !important;
+    height: 200px !important;
+  }
 
 
 
