@@ -208,5 +208,34 @@ textarea#message_area {
     height: 200px !important;
   }
 
+  .showArticleContainer{
+    width:  500px !important;
+    margin: auto !important;
+    padding: 30px !important;
+  }
+
+  .showArticleEditButton{
+    background-color: green !important;
+    color: white !important;
+    text-decoration:  none !important;
+    padding: 5px !important;
+    border-radius: 10px !important;
+  }
+
+  .showArticleContainer .showArticleListing{
+    margin-bottom: 40px;
+  }
+  .showArticleBackToArticleButton{
+    background-color: green !important;
+    color: white !important;
+    text-decoration:  none !important;
+    padding: 5px !important;
+    border-radius: 10px !important;
+  }
+  .showArticleAndBackToArticleDivButton{
+    margin-bottom: 40px !important;
+  }
+
+
 
 

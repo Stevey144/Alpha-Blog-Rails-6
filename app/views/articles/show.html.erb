@@ -1,10 +1,17 @@
-<p style="color: green"><%= notice %></p>
+<div class="showArticleContainer">
 
-<%= render @article %>
+        <p style="color: green"><%= notice %></p>
 
-<div>
-  <%= link_to "Edit this article", edit_article_path(@article) %> |
-  <%= link_to "Back to articles", articles_path %>
+    <div class="showArticleListing">
+          <%= render @article %>
+    </div>
+    <div class="showArticleAndBackToArticleDivButton">
+          <%= link_to "Edit this article", edit_article_path(@article), class: "showArticleEditButton" %> |
+          <%= link_to "Back to articles", articles_path, class: 'showArticleBackToArticleButton' %>
 
-  <%= button_to "Destroy this article", @article, method: :delete %>
+    </div>
+
+          <%= button_to "Destroy this article", @article, method: :delete, class: "btn btn-danger" %>
+
 </div>
+
