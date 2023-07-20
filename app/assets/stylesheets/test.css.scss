@@ -109,6 +109,56 @@
     color: white !important;
     text-decoration: none !important;
 }
+.showArticleButton{
+    background-color: green !important;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none !important;
+}
+
+.showArticleButton:hover{
+    background-color: black !important;
+    color: white;
+}
+
+.backToArticles{
+    background-color: green !important;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none !important;
+
+}
+
+.backToArticles:hover{
+    background-color: darkorchid !important;
+    color: white;
+}
+
+.mytable, td{
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.indexshowArticle{
+    background-color: green !important;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none !important;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.indexshowArticle:hover{
+    color:darkorange;
+}
+
+.Articlecontainer{
+    width: 400px !important;
+    margin: auto !important;
+}
 
 
 
