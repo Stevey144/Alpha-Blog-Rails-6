@@ -16,8 +16,12 @@
      </div>
 </div>
 
-<%= link_to 'Articles listing', articles_path %> |
-<%= link_to 'About page', about_path %>
+<div class="ArticleListingAndAboutPage">
+    <%= link_to 'Articles listing', articles_path, class: "homeArticleListing" %> |
+    <%= link_to 'About page', about_path, class: 'homeAboutPage' %>
+</div>
+
+
 <div id="page-content">
 
 </div>
