@@ -1,0 +1,15 @@
+<% if @article.errors.any? %>
+
+<div class="alert alert-danger" role="alert">
+<h2>The following Errors prohibited this article from being saved:</h2>
+<ul>
+<% @article.errors.full_messages.each do |msg| %>
+  <li><%= msg %></li>
+<% end %>
+</ul>
+</div>
+
+<div style="color: red">
+</div>
+
+<% end %>

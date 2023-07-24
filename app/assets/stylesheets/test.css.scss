@@ -158,6 +158,7 @@
 .Articlecontainer{
     width: 400px !important;
     margin: auto !important;
+    background-color: #eee;
 }
 .tableTitle, tr td{
     border-collapse: collapse !important;
@@ -177,8 +178,9 @@
 }
 
 .newArticleContainer{
-    width: 300px !important;
+    width: 500px !important;
     margin: auto !important;
+    background-color: #eee;
 
 }
 .createArticleButton{
@@ -200,11 +202,11 @@
 }
 
 input[type=text]{
-    width: 300px !important;
+    width: 500px !important;
 }
 
 textarea#message_area {
-    width: 300px !important;
+    width: 500px !important;
     height: 200px !important;
   }
 
