@@ -147,7 +147,7 @@
     color: white;
     border-radius: 10px;
     text-decoration: none !important;
-    padding: 2px;
+    padding: 5px;
     font-size: 12px;
 }
 
@@ -247,9 +247,22 @@ textarea#message_area {
     font-size:  30px !important;
     text-decoration:  none !important;
   }
+  .homeArticleListing:hover{
+    color:green !important;
+  }
+
   .homeAboutPage{
     font-size:  30px !important;
     text-decoration:  none !important;
+  }
+
+  .homeAboutPage:hover{
+    color:green !important;
+  }
+
+  .editArticleDiv{
+    width: 300px !important;
+    margin: auto !important;
   }
 
 
